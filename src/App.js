@@ -1,7 +1,11 @@
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 import React from 'react'
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-import { Routes, Route, Outlet } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
+// =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+import Home from './containers/Home';
+import Portal from './containers/Portal';
+import Login from './components/Login';
 // =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 
@@ -16,13 +20,13 @@ export default function App() {
     {/*                                             CLIENT SIDE R O U T I N G */}
     <Routes>      
         {/* ====================================================== ROOT PATH  */}
-        <Route path="/" element={} />
+        <Route path="/" element={<Home />} />
         {/* =============================================site.com/access-portal/  */}
-        <Route path="/access-portal" element={} >
+        <Route path="/access-portal" element={<Portal />} >
           {/* ===========================================site.com/access-portal/login/  */}
-          <Route path="/login" element={} />
+          <Route path="/login" element={<Login />} />
           {/* ===========================================site.com/access-portal/signup/  */}
-          <Route path="/signup" element={} />
+          <Route path="/signup" element={<Signup />} />
         </Route>
     </Routes>   
     {/*  ==================================================================== */}    
