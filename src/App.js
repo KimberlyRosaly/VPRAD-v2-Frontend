@@ -39,6 +39,8 @@ export default function App() {
 
         {/* ====================================================== site.com/buildings/  */}
         <Route path="/buildings" element={<Buildings />} />
+        {/* ====================================================== site.com/apartments/  */}
+        <Route path="/apartments" element={<Apartments />} />
 
 
     </Routes>   
