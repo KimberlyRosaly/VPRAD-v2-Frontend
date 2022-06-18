@@ -1,8 +1,8 @@
 <hr />
-<pre><h1 align="center">
+<h1 align="center">
 Ⓥ Ⓔ Ⓗ Ⓘ Ⓒ Ⓛ Ⓔ   Ⓟ Ⓔ Ⓡ Ⓜ Ⓘ Ⓣ Ⓢ
 Registration & Database
-</h1></pre>
+</h1>
    
 <hr />
 <h3 style="text-align: left; width:49%; display: inline-block; letter-spacing: 3px;">
