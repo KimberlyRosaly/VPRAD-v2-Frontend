@@ -6,9 +6,17 @@ export default function Home() {
 
 
     return (
-        <>
-            <div>HOME CONTAINER COMPONENT</div>
-        </>
+        
+            <div className='home-container'>HOME CONTAINER COMPONENT
+
+                <h1>VEHICLE PERMITS</h1>
+                <h2>REGISTRATION & DATABASE</h2>
+
+                <button>LOG IN</button>
+                
+                <button>SIGN UP</button>
+            </div>
+        
     )
         
 
